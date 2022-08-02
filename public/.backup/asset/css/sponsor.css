@@ -1,0 +1,179 @@
+        /*Sponsors List*/
+        .sponsorstitle {
+          font-size: 20px;
+          position: relative;
+          font-weight: lighter;
+          margin-top: 40px;
+          text-align: center;
+          width: 100%;
+          left: 0px;
+          font-family: 'Open Sans', Helvetica, sans-serif;
+      }
+
+      .sponsorstitle h1 {
+          color: #000;
+          font-weight: lighter;
+          font-family: 'Open Sans', Helvetica, sans-serif;
+      }
+
+      .sponsors {
+          position: relative;
+          text-align: center;
+      }
+
+      .sponsors ul {
+          list-style: none;
+          margin: auto;
+          padding: 0;
+      }
+
+      .sponsors ul li {
+          display: inline-block;
+      }
+
+      #box1 {
+          width: 340px;
+          height: 185px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/L/logo FIFGROUP horizontal baru.png");
+          background-size: 330px;
+          overflow: hidden;
+          background-repeat: no-repeat;
+          background-position: center;
+          margin: 5px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box2 {
+          width: 160px;
+          height: 90px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/M/LOGO FIX_5.png");
+          background-color: #fff;
+          background-position: center;
+          background-size: 80px;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box3 {
+          width: 160px;
+          height: 90px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/M/LOGO FIX_6.png");
+          background-color: #fff;
+          background-position: center;
+          background-size: 80px;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box4 {
+          width: 102px;
+          height: 80px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/S/LOGO FIX_10.png");
+          background-color: #fff;
+          background-position: center;
+          background-size: 100px;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box5 {
+          width: 102px;
+          height: 80px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/S/1537764583170.png");
+          background-color: #fff;
+          background-position: center;
+          background-size: 80px;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box6 {
+          width: 102px;
+          height: 80px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/S/LOGO FIX_9.png");
+          background-color: #fff;
+          background-position: center;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          background-size: 70px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box7 {
+          width: 90px;
+          height: 60px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/Xs/LOGO FIX_4.png");
+          background-color: #fff;
+          background-position: center;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          margin-top: 10px;
+          margin-right: 15px;
+          background-size: 70px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+      #box8 {
+          width: 90px;
+          height: 60px;
+          background: url("https://olimpiade.ub.ac.id/asset/img/sponsor/Xs/LOGO FIX_8.jpg");
+          background-color: #fff;
+          background-position: center;
+          background-repeat: no-repeat;
+          overflow: hidden;
+          margin: 5px;
+          margin-top: 10px;
+          margin-left: 20px;
+          background-size: 50px;
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+      }
+
+
+      #overlay {
+          background: rgba(0, 0, 0, 0.75);
+          text-align: center;
+          padding: 60px 0 120px 0;
+          opacity: 0;
+          -webkit-transition: opacity 0.25s ease;
+          -moz-transition: opacity 0.25s ease;
+      }
+
+      .sponsors a {
+          text-decoration: none;
+      }
+
+      #name {
+          font-weight: lighter;
+          font-family: 'Open Sans', Helvetica, sans-serif;
+          color: rgba(255, 255, 255, 0.85);
+          font-size: 10px;
+      }
+
+      #box1:hover #overlay,
+      #box2:hover #overlay,
+      #box3:hover #overlay,
+      #box4:hover #overlay,
+      #box5:hover #overlay,
+      #box6:hover #overlay,
+      #box8:hover #overlay,
+      #box7:hover #overlay {
+          opacity: 1;
+      }
+      @media only screen and (min-width:992px) {
+          .a {
+              text-align: right !important;
+          }
+          .b {
+              text-align: left !important;
+          }
+      }

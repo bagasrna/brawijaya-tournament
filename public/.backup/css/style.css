@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Lato:300');
+@import "compass/css3";
+@media only screen and (min-width: 992px) {
+#randomText {
+	font-family: 'boldbold';
+	src: url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff") format('woff'), url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 50px;
+}
+	
+}
+@media only screen and (max-width : 576px) {
+#randomText {
+	font-family: 'boldbold';
+	src: url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff") format('woff'), url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 22px;
+}
+}
+body {
+	overflow-y: scroll;
+	overflow-x: hidden
+}
+@font-face {
+	font-family: 'boldbold';
+	src: url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff") format('woff'), url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+h1 {
+	font-family: 'boldbold';
+	src: url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff") format('woff'), url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 45px;
+}
+h3 {
+	font-family: 'boldbold';
+	src: url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff") format('woff'), url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+p {
+	font-family: 'boldbold';
+	src: url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff") format('woff'), url("http://olimpiade.ub.ac.id/webfonts/cunia-webfont.woff2") format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+}
+.mySosmed a i {
+	color: white;
+}
+.mySosmed a i:hover {
+	color: #009688;
+}
+.universe {
+	z-index: -10000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	filter: contrast(120%);
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+.universe-container {
+	width: 100%;
+	height: 100%;
+	background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%);
+}
+.content {
+	width: inherit;
+	height: inherit;
+}
+#universe {
+	width: 100%;
+	height: 100%;
+}
+.text {
+	font-family: "Ubuntu Condensed";
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	font-size: 28px;
+	color: #FAFAFA;
+}
+.dud {
+	color: #757575;
+}

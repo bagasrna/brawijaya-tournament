@@ -1,0 +1,22 @@
+@media (max-width: 812px) and (min-width: 320px){
+    .opt-tab{
+        width: 90%;
+        height: 3.5em;
+    }
+
+    .contentcollapsed{
+        width: 90%;
+    }
+    
+    .footer-area{
+        height: 100px;
+    }
+
+    .m-f{
+        margin-top: 9%
+    }
+
+    .bg-form{
+        width: 80%;
+    }
+}
